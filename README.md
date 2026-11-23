@@ -1,4 +1,4 @@
-# Seafood Smart — Hệ thống giám sát & điều khiển ao nuôi thông minh
+# Seafood Smart — Hệ thống giám sát trang tại thủy sản thông minh
 
 Hệ thống IoT + Backend API + Ứng dụng di động giám sát thông số môi trường ao nuôi theo thời gian thực (Nhiệt độ, pH, Oxy hòa tan DO, Độ đục, Mực nước), điều khiển thiết bị từ xa (Bơm, Oxy, Cho ăn) và gửi cảnh báo đẩy (Push Notifications).
 

@@ -1,0 +1,29 @@
+# Dependencies & Build Outputs
+node_modules/
+dist/
+.expo/
+web-build/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*service-account*.json
+*firebase-adminsdk*.json
+firebase-credentials.json
+auth_config.local.h
+
+# Local Android SDK / Emulator / Artifacts
+.task-tmp/
+.android-sdk/
+.android-user/
+preview-android/
+preview-ios/
+*.apk
+*.aab
+
+# Logs & OS Files
+*.log
+.DS_Store
+Thumbs.db

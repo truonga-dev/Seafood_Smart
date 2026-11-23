@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Seafood Smart",
+    "slug": "seafood-smart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-notifications"
+    ],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.seafoodsmart.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6c51d332-1ebd-406c-a7d7-5a9808a4beb5"
+      }
+    },
+    "owner": "truonga01.dev"
+  }
+}

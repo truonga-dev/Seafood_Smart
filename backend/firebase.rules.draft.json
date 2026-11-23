@@ -1,0 +1,34 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "ponds": {
+      "$pondId": {
+        ".read": "auth != null && (root.child('pondMembers').child($pondId).child(auth.uid).child('role').val() === 'owner' || root.child('pondMembers').child($pondId).child(auth.uid).child('role').val() === 'viewer' || root.child('pondDevices').child($pondId).child(auth.uid).val() === true)",
+        "info": {
+          ".write": "auth != null && root.child('pondDevices').child($pondId).child(auth.uid).val() === true"
+        },
+        "latest": {
+          ".write": "auth != null && root.child('pondDevices').child($pondId).child(auth.uid).val() === true"
+        },
+        "history": {
+          ".indexOn": ["ts"],
+          ".write": "auth != null && root.child('pondDevices').child($pondId).child(auth.uid).val() === true"
+        },
+        "alerts": {
+          ".indexOn": ["ts"],
+          ".write": "auth != null && root.child('pondDevices').child($pondId).child(auth.uid).val() === true"
+        },
+        "control": {
+          ".write": "auth != null && root.child('pondDevices').child($pondId).child(auth.uid).val() === true"
+        },
+        "thresholds": {
+          ".write": "auth != null && root.child('pondDevices').child($pondId).child(auth.uid).val() === true"
+        }
+      }
+    },
+    "pushReceipts": {
+      ".indexOn": ["checkAfter"]
+    }
+  }
+}

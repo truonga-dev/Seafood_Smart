@@ -1,0 +1,10 @@
+node_modules/
+dist/
+preview-android/
+preview-ios/
+.expo/
+.env*
+!.env.example
+*service-account*.json
+*firebase-adminsdk*.json
+*.log

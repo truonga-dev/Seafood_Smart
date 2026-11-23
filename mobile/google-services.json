@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "640112476942",
+    "firebase_url": "https://seafood-smart-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "seafood-smart",
+    "storage_bucket": "seafood-smart.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640112476942:android:83077b420524d9f42f8d5f",
+        "android_client_info": {
+          "package_name": "com.seafoodsmart.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0mvqrYPElprtgg35tmhCtQjLL6sn1U3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
